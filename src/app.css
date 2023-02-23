@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card {
+    width: 31.33%;
+    padding: 10px;
+    margin: 1%;
+    border: ridge 15px;
+    border-color: transparent #000000#000000 transparent;
+    background-image: linear-gradient(316deg, #000000,transparent);
+    border-radius: 10px;
+}
+.card-img{
+    max-width: 100%;
+}
+.card-content {
+    padding: 10px;
+}
+
+h2.card-ttl {
+    text-align: center;
+}
+
+p.card-des {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.card-link {
+    text-decoration: none;
+    border: solid #989898 5px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: max-content;
+    margin: auto;
+}
+
+.card-link a {
+    text-decoration: none;
+    color: white;
+}
